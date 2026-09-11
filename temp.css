@@ -1,0 +1,196 @@
+*{
+    margin: 0px ;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:linear-gradient(135deg,#0D1025,#1E1B4B,#4C1D95);
+}
+.container{
+    height: 96vh;
+    width: 150vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(26,31,61,.7);
+    border: 1px solid rgba(255,255,255,.15);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 25px rgba(79,70,229,.3);
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 30px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/017/791/311/non_2x/temperature-cloud-neon-glow-icon-illustration-vector.jpg");
+    background-size: cover;
+     box-shadow: 0 0 25px rgba(79,70,229,.3);
+    
+}
+h3{
+    margin-top: 20px;
+    color: antiquewhite;
+}
+.box1{
+    height: 130px;
+    width: 120vh;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid rgba(79,70,229,.3); 
+}
+.para1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.box2{
+    height: 60px;
+    width: 110vh;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo1{
+    height: 60px;
+    width: 52px;
+  border-right:2px solid black ;
+    border-top: 10px;
+    border-left: 10px; 
+    background-image: url("https://static.vecteezy.com/system/resources/previews/019/480/749/non_2x/body-temperature-neon-glow-icon-illustration-vector.jpg");
+    background-size: cover;
+}
+
+.val{
+    height: 58px;
+    width: 90vh;
+    border-top: 10px;
+    border-bottom: 10px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.symbol{
+     height: 40px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: #6366F1;
+
+}
+.input{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    color: antiquewhite;
+    background-color: #20254B;
+    border: 1px solid #6366F1;
+}
+.container1{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#boxx{
+    height: 190px;
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 10px;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: font size 2s ease-in 0s;
+    box-shadow: 0 0 10px 10px rgba(224, 99, 241, 0.4);
+}
+.celsius{
+    height: 60px;
+    width: 60px;
+    border: 2px solid rgb(153, 0, 255);
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background: #231F3C;
+    color: #C084FC;
+}
+.head1{
+  margin-top: 10px;
+  color: #6366F1;
+}
+.result1{
+    height: 70px;
+    width: 100%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+   font-size: 30px;
+   color: aliceblue;
+
+}
+.result2{
+     height: 70px;
+    width: 100%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: antiquewhite;
+}
+.result3{
+     height: 70px;
+    width: 100%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: antiquewhite;
+}
+button{
+    margin-top: 10px;
+    height: 60px;
+    width: 180px;
+    border-radius: 10px;
+    font-size: 20px;
+    background :linear-gradient(90deg,#4F46E5,#D946E5);
+    color: #fff;
+    border: none;
+}
+:hover#boxx{
+    transform: translateY(-10px);
+    transition: 0.8s;
+}
+:hover.box1{
+    transform: translateY(-10px);
+    transition: 0.8s;
+}
+.head2{
+    margin-top: 10px;
+    color: rgb(255, 136, 0);
+}
+.head3{
+    margin-top: 10px;
+    color: palevioletred;
+}
+p{
+    color: antiquewhite;
+}
+
+
